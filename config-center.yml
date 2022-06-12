@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active: dev
+
+server:
+  port: 8201
+
+spring:
+  profiles: dev
+  application:
+    name: config-server-dev
+
+spring:
+  profiles: dat
+  application:
+    name: config-server-dat
